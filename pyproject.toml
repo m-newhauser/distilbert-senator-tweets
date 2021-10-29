@@ -12,6 +12,7 @@ ipykernel = "^6.4.2"
 streamlit = "^1.1.0"
 transformers = "^4.11.3"
 psutil = "^5.8.0"
+torch = "^1.10.0"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^21.9b0", allow-prereleases = true}

@@ -28,7 +28,6 @@ def prettify_results(results):
 
 
 def main():
-    np.random.seed(123)
 
     st.title("Tweets - Republican or Democrat?")
     st.subheader("Which way does a tweet lean?")
@@ -44,7 +43,7 @@ def main():
         # for percent_complete in range(100):
         #     time.sleep(0.1)
         #     my_bar.progress(percent_complete + 1)
-
+        np.random.seed(123)
         classifier = load_model()
         labels = ["Republican", "Democrat"]
         raw_results = classifier(tweet_text, labels)
