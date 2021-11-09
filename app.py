@@ -1,5 +1,3 @@
-# app.py
-
 import pandas as pd
 import tweepy as tw
 import numpy as np
@@ -59,3 +57,5 @@ if __name__ == "__main__":
     logging.info(f"RAM memory % used: {psutil.virtual_memory()[2]}")
 
     main()
+
+# %%
