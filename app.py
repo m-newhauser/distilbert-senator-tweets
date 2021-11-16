@@ -16,7 +16,7 @@ import logging
     show_spinner=False,
 )
 def load_model():
-    return pipeline("zero-shot-classification")
+    return pipeline("zero-shot-classification", model="valhalla/distilbart-mnli-12-6")
 
 
 def prettify_results(results):
