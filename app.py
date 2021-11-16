@@ -35,6 +35,8 @@ def main():
         "Major NY14 climate victory today! Earlier this year, fossil fuel co NRG began to rush high-pollution, fracked-gas peaker plants into our community. We organized all year against it while securing wind + solar projects. Today the plant was denied. When we mobilize, we win",
     )
 
+    classifier = load_model()
+
     if st.button("Get prediction"):
         # my_bar = st.progress(0)
 
@@ -42,7 +44,6 @@ def main():
         #     time.sleep(0.1)
         #     my_bar.progress(percent_complete + 1)
         np.random.seed(123)
-        classifier = load_model()
         labels = ["Republican", "Democrat"]
         raw_results = classifier(tweet_text, labels)
         pretty_results = prettify_results(raw_results)
@@ -52,8 +53,9 @@ def main():
 
 
 if __name__ == "__main__":
-    import os
+    import transformers
 
+    transformers.logging.set_verbosity_debug()
     logging.info(f"RAM memory % used: {psutil.virtual_memory()[2]}")
 
     main()

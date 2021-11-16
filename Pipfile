@@ -12,6 +12,7 @@ transformers = "*"
 psutil = "*"
 ipykernel = "*"
 torch = "*"
+psrecord = "*"
 
 [dev-packages]
 black = "*"
