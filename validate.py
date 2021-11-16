@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import csv
+from pandas.core.reshape.pivot import crosstab
 import preprocessor as p
 from transformers import pipelines
 from app import load_model, prettify_results
@@ -52,7 +53,14 @@ senator_tweets["party"] = np.where(
 )
 
 #%%
+# Calculate prediction accuracy
 senator_tweets["accurate"] = np.where(
     senator_tweets["party"] == senator_tweets["pred"], 1, 0
 )
+# %%
+pd.crosstab(senator_tweets["party"], senator_tweets["pred"])
+
+# %%
+# # Write results to csv
+# senator_tweets.to_csv("data/senators_results.csv", index=False)
 # %%
