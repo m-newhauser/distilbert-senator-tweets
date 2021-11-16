@@ -1,49 +1,58 @@
-# validate.py
-# Validate the model on a corpus of tweets scraped from Twitter.
-
-# %%
-# Imports
+#%%
 import pandas as pd
-import tweepy as tw
 import numpy as np
-from os import environ as env
-import streamlit as st
-from transformers import pipeline
+import csv
+import preprocessor as p
+from transformers import pipelines
+from app import load_model, prettify_results
 
+#%%
+
+# Load data from fivethirtyeight
+senator_tweets = pd.read_csv("data/senators.csv")
+
+# Remove numbers, emojis and &'s
+p.set_options(p.OPT.NUMBER, p.OPT.EMOJI)
+senator_tweets["text_clean"] = senator_tweets["text"].apply(p.clean)
+senator_tweets["text_clean"] = senator_tweets["text_clean"].str.replace("&amp;", "and ")
+
+#%%
+# Load classifier
+classifier = load_model()
+
+#%%
+# Get predictions
+labels = ["Republican", "Democrat"]
+texts = senator_tweets["text_clean"]
+outputs = classifier(texts, labels)
+
+#%%
+# Clean predictions
+labels = []
+scores = []
+for output in outputs:
+    labels.append(
+        [
+            label
+            for label, score in zip(output["labels"], output["scores"])
+            if score > 0.5
+        ][0]
+    )
+    scores.append([score for score in output["scores"] if score > 0.5][0])
+final_outputs = list(zip(labels, scores))
+
+# Append predictions to data frame
+final_output_df = pd.DataFrame(final_outputs, columns=["pred", "score"])
+senator_tweets["pred"] = final_output_df["pred"]
+senator_tweets["score"] = final_output_df["score"]
+
+# Move this later
+senator_tweets["party"] = np.where(
+    senator_tweets["party"] == "R", "Republican", "Democrat"
+)
+
+#%%
+senator_tweets["accurate"] = np.where(
+    senator_tweets["party"] == senator_tweets["pred"], 1, 0
+)
 # %%
-# Load credentials from .env file
-auth = tw.AppAuthHandler(env["CONSUMER_KEY"], env["CONSUMER_SECRET"])
-
-# Authorize
-api = tw.API(auth)
-
-# %%
-# Get validation data (tweets) from Twitter
-SCREEN_NAMES = []
-
-MAX_TWEETS = 10
-
-dfs_list = []
-for name in SCREEN_NAMES:
-    try:
-        # Creation of query method using parameters
-        tweets = tw.Cursor(
-            api.user_timeline, screen_name=name, tweet_mode="extended"
-        ).items(MAX_TWEETS)
-
-        # Post-process tweets
-        tweets_json = [t._json for t in tweets]
-        tweets_normalized = pd.json_normalize(tweets_json)
-        dfs_list.append(tweets_normalized)
-    except:
-        print("Unable to find tweets for {}".format(name))
-
-# Combine all dfs into one df and clean
-tweets_df = pd.concat(dfs_list)
-tweets_df = tweets_df[
-    ["created_at", "id", "full_text", "user.id_str", "user.name", "user.screen_name"]
-]
-
-# %%
-# Classify tweets
-classifier = pipeline("zero-shot-classification")
