@@ -6,4 +6,4 @@ Built in 🐍
 
 using 🤗 [Transformers](https://huggingface.co/) and 
 
-deployed [here]() on Streamlit.
+deployed [here](https://share.streamlit.io/m-newhauser/rep-or-dem-tweets/main/app.py) on Streamlit.

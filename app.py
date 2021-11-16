@@ -1,3 +1,4 @@
+#%%
 import pandas as pd
 import tweepy as tw
 import numpy as np
@@ -25,6 +26,16 @@ def prettify_results(results):
     )
 
 
+tweet_text = """
+The Bipartisan Infrastructure package delivers a 
+once-in-a-century investment to rebuild our nation in a stronger, 
+more sustainable way. Thanks to the leadership of @POTUS and work 
+of @HouseDemocrats, more jobs, safer roads, cleaner water and more
+are on the way!"
+"""
+
+
+#%%
 def main():
 
     st.title("Tweets - Republican or Democrat?")
@@ -32,19 +43,15 @@ def main():
 
     tweet_text = st.text_area(
         "Paste a tweet below:",
-        "Major NY14 climate victory today! Earlier this year, fossil fuel co NRG began to rush high-pollution, fracked-gas peaker plants into our community. We organized all year against it while securing wind + solar projects. Today the plant was denied. When we mobilize, we win",
+        "The Bipartisan Infrastructure package delivers a once-in-a-century investment to rebuild our nation in a stronger, more sustainable way. Thanks to the leadership of @POTUS and work of @HouseDemocrats, more jobs, safer roads, cleaner water and more are on the way!",
     )
 
+    np.random.seed(123)
+    labels = ["Republican", "Democrat"]
     classifier = load_model()
 
     if st.button("Get prediction"):
-        # my_bar = st.progress(0)
 
-        # for percent_complete in range(100):
-        #     time.sleep(0.1)
-        #     my_bar.progress(percent_complete + 1)
-        np.random.seed(123)
-        labels = ["Republican", "Democrat"]
         raw_results = classifier(tweet_text, labels)
         pretty_results = prettify_results(raw_results)
 
@@ -59,5 +66,3 @@ if __name__ == "__main__":
     logging.info(f"RAM memory % used: {psutil.virtual_memory()[2]}")
 
     main()
-
-# %%
