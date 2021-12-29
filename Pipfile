@@ -13,6 +13,8 @@ psutil = "*"
 ipykernel = "*"
 torch = "*"
 psrecord = "*"
+scikit-learn = "*"
+tensorflow = "*"
 
 [dev-packages]
 black = "*"
