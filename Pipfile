@@ -13,6 +13,9 @@ psutil = "*"
 ipykernel = "*"
 torch = "*"
 psrecord = "*"
+selenium = "*"
+snscrape = "*"
+sqlalchemy = "*"
 
 [dev-packages]
 black = "*"
