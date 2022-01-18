@@ -1,101 +1,101 @@
-,name ,state ,party ,username
-0,"Baldwin, Tammy",WI,D,SenatorBaldwin
-1,"Barrasso, John",WY,R,SenJohnBarrasso
-2,"Bennet, Michael F.",CO,D,SenatorBennet
-3,"Blackburn, Marsha",TN,R,MarshaBlackburn
-4,"Blumenthal, Richard",CT,D,SenBlumenthal
-5,"Blunt, Roy",MO,R,RoyBlunt
-6,"Booker, Cory A.",NJ,D,CoryBooker
-7,"Boozman, John",AR,R,JohnBoozman
-8,"Braun, Mike",IN,R,SenatorBraun
-9,"Brown, Sherrod",OH,D,SenSherrodBrown
-10,"Burr, Richard",NC,R,SenatorBurr
-11,"Cantwell, Maria",WA,D,SenatorCantwell
-12,"Capito, Shelley Moore",WV,R,SenCapito
-13,"Cardin, Benjamin L.",MD,D,SenatorCardin
-14,"Carper, Thomas R.",DE,D,SenatorCarper
-15,"Casey, Robert P. Jr.",PA,D,SenBobCasey
-16,"Cassidy, Bill",LA,R,SenBillCassidy
-17,"Collins, Susan M.",ME,R,SenatorCollins
-18,"Coons, Christopher A.",DE,D,ChrisCoons
-19,"Cornyn, John",TX,R,JohnCornyn
-20,"Cortez Masto, Catherine",NV,D,SenCortezMasto
-21,"Cotton, Tom",AR,R,SenTomCotton
-22,"Cramer, Kevin",ND,R,SenKevinCramer
-23,"Crapo, Mike",ID,R,MikeCrapo
-24,"Cruz, Ted",TX,R,SenTedCruz
-25,"Daines, Steve",MT,R,SteveDaines
-26,"Duckworth, Tammy",IL,D,SenDuckworth
-27,"Durbin, Richard J.",IL,D,SenatorDurbin
-28,"Ernst, Joni",IA,R,SenJoniErnst
-29,"Feinstein, Dianne",CA,D,SenFeinstein
-30,"Fischer, Deb",NE,R,SenatorFischer
-31,"Gillibrand, Kirsten E.",NY,D,SenGillibrand
-32,"Graham, Lindsey",SC,R,LindseyGrahamSC
-33,"Grassley, Chuck",IA,R,ChuckGrassley
-34,"Hagerty, Bill",TN,R,SenatorHagerty
-35,"Hassan, Margaret Wood",NH,D,SenatorHassan
-36,"Hawley, Josh",MO,R,HawleyMO
-37,"Heinrich, Martin",NM,D,MartinHeinrich
-38,"Hickenlooper, John W.",CO,D,SenatorHick
-39,"Hirono, Mazie K.",HI,D,maziehirono
-40,"Hoeven, John",ND,R,SenJohnHoeven
-41,"Hyde-Smith, Cindy",MS,R,SenHydeSmith
-42,"Inhofe, James M.",OK,R,JimInhofe
-43,"Johnson, Ron",WI,R,SenRonJohnson
-44,"Kaine, Tim",VA,D,timkaine
-45,"Kelly, Mark",AZ,D,SenMarkKelly
-46,"Kennedy, John",LA,R,SenJohnKennedy
-47,"King, Angus S. Jr.",ME,I,SenAngusKing
-48,"Klobuchar, Amy",MN,D,SenAmyKlobuchar
-49,"Lankford, James",OK,R,SenatorLankford
-50,"Leahy, Patrick J.",VT,D,SenatorLeahy
-51,"Lee, Mike",UT,R,SenMikeLee
-52,"Luján, Ben Ray",NM,D,SenatorLujan
-53,"Lummis, Cynthia M.",WY,R,SenLummis
-54,"Manchin, Joe, III",WV,D,Sen_JoeManchin
-55,"Markey, Edward J.",MA,D,SenMarkey
-56,"Marshall, Roger",KS,R,SenatorMarshall
-57,"McConnell, Mitch",KY,R,senatemajldr
-58,"Menendez, Bob",NJ,D,SenatorMenendez
-59,"Merkley, Jeff",OR,D,SenJeffMerkley
-60,"Moran, Jerry",KS,R,JerryMoran
-61,"Murkowski, Lisa",AK,R,lisamurkowski
-62,"Murphy, Christopher",CT,D,ChrisMurphyCT
-63,"Murray, Patty",WA,D,PattyMurray
-64,"Ossoff, Jon",GA,D,ossoff
-65,"Padilla, Alex",CA,D,SenAlexPadilla
-66,"Paul, Rand",KY,R,RandPaul
-67,"Peters, Gary C.",MI,D,SenGaryPeters
-68,"Portman, Rob",OH,R,senrobportman
-69,"Reed, Jack",RI,D,SenJackReed
-70,"Risch, James E.",ID,R,SenatorRisch
-71,"Romney, Mitt",UT,R,SenatorRomney
-72,"Rosen, Jacky",NV,D,SenJackyRosen
-73,"Rounds, Mike",SD,R,SenatorRounds
-74,"Rubio, Marco",FL,R,marcorubio
-75,"Sanders, Bernard",VT,I,SenSanders
-76,"Sasse, Ben",NE,R,SenSasse
-77,"Schatz, Brian",HI,D,SenBrianSchatz
-78,"Schumer, Charles E.",NY,D,SenSchumer
-79,"Scott, Rick",FL,R,SenRickScott
-80,"Scott, Tim",SC,R,SenatorTimScott
-81,"Shaheen, Jeanne",NH,D,SenatorShaheen
-82,"Shelby, Richard C.",AL,R,SenShelby
-83,"Sinema, Kyrsten",AZ,D,SenatorSinema
-84,"Smith, Tina",MN,D,SenTinaSmith
-85,"Stabenow, Debbie",MI,D,SenStabenow
-86,"Sullivan, Dan",AK,R,SenDanSullivan
-87,"Tester, Jon",MT,D,SenatorTester
-88,"Thune, John",SD,R,SenJohnThune
-89,"Tillis, Thom",NC,R,SenThomTillis
-90,"Toomey, Patrick J.",PA,R,SenToomey
-91,"Tuberville, Tommy",AL,R,SenTuberville
-92,"Van Hollen, Chris",MD,D,ChrisVanHollen
-93,"Warner, Mark R.",VA,D,MarkWarner
-94,"Warnock, Raphael G.",GA,D,SenatorWarnock
-95,"Warren, Elizabeth",MA,D,SenWarren
-96,"Whitehouse, Sheldon",RI,D,SenWhitehouse
-97,"Wicker, Roger F.",MS,R,SenatorWicker
-98,"Wyden, Ron",OR,D,RonWyden
-99,"Young, Todd",IN,R,SenToddYoung
+name,state,party,username
+"Baldwin, Tammy",WI,D,SenatorBaldwin
+"Barrasso, John",WY,R,SenJohnBarrasso
+"Bennet, Michael F.",CO,D,SenatorBennet
+"Blackburn, Marsha",TN,R,MarshaBlackburn
+"Blumenthal, Richard",CT,D,SenBlumenthal
+"Blunt, Roy",MO,R,RoyBlunt
+"Booker, Cory A.",NJ,D,CoryBooker
+"Boozman, John",AR,R,JohnBoozman
+"Braun, Mike",IN,R,SenatorBraun
+"Brown, Sherrod",OH,D,SenSherrodBrown
+"Burr, Richard",NC,R,SenatorBurr
+"Cantwell, Maria",WA,D,SenatorCantwell
+"Capito, Shelley Moore",WV,R,SenCapito
+"Cardin, Benjamin L.",MD,D,SenatorCardin
+"Carper, Thomas R.",DE,D,SenatorCarper
+"Casey, Robert P. Jr.",PA,D,SenBobCasey
+"Cassidy, Bill",LA,R,SenBillCassidy
+"Collins, Susan M.",ME,R,SenatorCollins
+"Coons, Christopher A.",DE,D,ChrisCoons
+"Cornyn, John",TX,R,JohnCornyn
+"Cortez Masto, Catherine",NV,D,SenCortezMasto
+"Cotton, Tom",AR,R,SenTomCotton
+"Cramer, Kevin",ND,R,SenKevinCramer
+"Crapo, Mike",ID,R,MikeCrapo
+"Cruz, Ted",TX,R,SenTedCruz
+"Daines, Steve",MT,R,SteveDaines
+"Duckworth, Tammy",IL,D,SenDuckworth
+"Durbin, Richard J.",IL,D,SenatorDurbin
+"Ernst, Joni",IA,R,SenJoniErnst
+"Feinstein, Dianne",CA,D,SenFeinstein
+"Fischer, Deb",NE,R,SenatorFischer
+"Gillibrand, Kirsten E.",NY,D,SenGillibrand
+"Graham, Lindsey",SC,R,LindseyGrahamSC
+"Grassley, Chuck",IA,R,ChuckGrassley
+"Hagerty, Bill",TN,R,SenatorHagerty
+"Hassan, Margaret Wood",NH,D,SenatorHassan
+"Hawley, Josh",MO,R,HawleyMO
+"Heinrich, Martin",NM,D,MartinHeinrich
+"Hickenlooper, John W.",CO,D,SenatorHick
+"Hirono, Mazie K.",HI,D,maziehirono
+"Hoeven, John",ND,R,SenJohnHoeven
+"Hyde-Smith, Cindy",MS,R,SenHydeSmith
+"Inhofe, James M.",OK,R,JimInhofe
+"Johnson, Ron",WI,R,SenRonJohnson
+"Kaine, Tim",VA,D,timkaine
+"Kelly, Mark",AZ,D,SenMarkKelly
+"Kennedy, John",LA,R,SenJohnKennedy
+"King, Angus S. Jr.",ME,I,SenAngusKing
+"Klobuchar, Amy",MN,D,SenAmyKlobuchar
+"Lankford, James",OK,R,SenatorLankford
+"Leahy, Patrick J.",VT,D,SenatorLeahy
+"Lee, Mike",UT,R,SenMikeLee
+"Luján, Ben Ray",NM,D,SenatorLujan
+"Lummis, Cynthia M.",WY,R,SenLummis
+"Manchin, Joe, III",WV,D,Sen_JoeManchin
+"Markey, Edward J.",MA,D,SenMarkey
+"Marshall, Roger",KS,R,SenatorMarshall
+"McConnell, Mitch",KY,R,senatemajldr
+"Menendez, Bob",NJ,D,SenatorMenendez
+"Merkley, Jeff",OR,D,SenJeffMerkley
+"Moran, Jerry",KS,R,JerryMoran
+"Murkowski, Lisa",AK,R,lisamurkowski
+"Murphy, Christopher",CT,D,ChrisMurphyCT
+"Murray, Patty",WA,D,PattyMurray
+"Ossoff, Jon",GA,D,ossoff
+"Padilla, Alex",CA,D,SenAlexPadilla
+"Paul, Rand",KY,R,RandPaul
+"Peters, Gary C.",MI,D,SenGaryPeters
+"Portman, Rob",OH,R,senrobportman
+"Reed, Jack",RI,D,SenJackReed
+"Risch, James E.",ID,R,SenatorRisch
+"Romney, Mitt",UT,R,SenatorRomney
+"Rosen, Jacky",NV,D,SenJackyRosen
+"Rounds, Mike",SD,R,SenatorRounds
+"Rubio, Marco",FL,R,marcorubio
+"Sanders, Bernard",VT,I,SenSanders
+"Sasse, Ben",NE,R,SenSasse
+"Schatz, Brian",HI,D,SenBrianSchatz
+"Schumer, Charles E.",NY,D,SenSchumer
+"Scott, Rick",FL,R,SenRickScott
+"Scott, Tim",SC,R,SenatorTimScott
+"Shaheen, Jeanne",NH,D,SenatorShaheen
+"Shelby, Richard C.",AL,R,SenShelby
+"Sinema, Kyrsten",AZ,D,SenatorSinema
+"Smith, Tina",MN,D,SenTinaSmith
+"Stabenow, Debbie",MI,D,SenStabenow
+"Sullivan, Dan",AK,R,SenDanSullivan
+"Tester, Jon",MT,D,SenatorTester
+"Thune, John",SD,R,SenJohnThune
+"Tillis, Thom",NC,R,SenThomTillis
+"Toomey, Patrick J.",PA,R,SenToomey
+"Tuberville, Tommy",AL,R,SenTuberville
+"Van Hollen, Chris",MD,D,ChrisVanHollen
+"Warner, Mark R.",VA,D,MarkWarner
+"Warnock, Raphael G.",GA,D,SenatorWarnock
+"Warren, Elizabeth",MA,D,SenWarren
+"Whitehouse, Sheldon",RI,D,SenWhitehouse
+"Wicker, Roger F.",MS,R,SenatorWicker
+"Wyden, Ron",OR,D,RonWyden
+"Young, Todd",IN,R,SenToddYoung
