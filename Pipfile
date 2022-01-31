@@ -16,6 +16,10 @@ psrecord = "*"
 selenium = "*"
 snscrape = "*"
 sqlalchemy = "*"
+plotly = "*"
+wordcloud = "*"
+datapane = "*"
+black = "*"
 
 [dev-packages]
 black = "*"
