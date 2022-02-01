@@ -11,8 +11,7 @@ deployed [here](https://share.streamlit.io/m-newhauser/rep-or-dem-tweets/main/ap
 *Medium article coming soon.*
 
 ## Sample
-
-10,000 randomly selected tweets from Democratic and Republican senators from FiveThirtyEight's [twitter-ratio/senators](https://fivethirtyeight.datasettes.com/fivethirtyeight/twitter-ratio%2Fsenators#export) dataset.
+All 2021 tweets (~100,000) made by all 100 United States Senators and scraped by me.
 
 ## Model
 
